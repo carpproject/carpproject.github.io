@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+        <head>
+          <title>passes - com.arm.carp.apps.optimizer.passes</title>
+          <meta name="description" content="passes - com.arm.carp.apps.optimizer.passes" />
+          <meta name="keywords" content="passes com.arm.carp.apps.optimizer.passes" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../../../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../../../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript" src="../../../../../../lib/jquery.js" id="jquery-js"></script>
+      <script type="text/javascript" src="../../../../../../lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="../../../../../../lib/template.js"></script>
+      <script type="text/javascript" src="../../../../../../lib/tools.tooltip.js"></script>
+      
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../../../../../index.html';
+            var hash = 'com.arm.carp.apps.optimizer.passes.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img src="../../../../../../lib/package_big.png" />
+        <p id="owner"><a href="../../../../../package.html" class="extype" name="com">com</a>.<a href="../../../../package.html" class="extype" name="com.arm">arm</a>.<a href="../../../package.html" class="extype" name="com.arm.carp">carp</a>.<a href="../../package.html" class="extype" name="com.arm.carp.apps">apps</a>.<a href="../package.html" class="extype" name="com.arm.carp.apps.optimizer">optimizer</a></p>
+        <h1>passes</h1>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">passes</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        
+        
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="com.arm.carp.apps.optimizer.passes.Pass" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="PassextendsCommonwithAssertablewithWalker"></a>
+      <a id="Pass:Pass"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">abstract </span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="Pass.html"><span class="name">Pass</span></a><span class="result"> extends <a href="../../../pencil/Common.html" class="extype" name="com.arm.carp.pencil.Common">Common</a> with <a href="../../../pencil/Assertable.html" class="extype" name="com.arm.carp.pencil.Assertable">Assertable</a> with <a href="../../../pencil/Walker.html" class="extype" name="com.arm.carp.pencil.Walker">Walker</a></span>
+      </span>
+      </h4>
+      <p class="comment cmt">Base class for all PENCIL transformation passes.</p>
+    </li><li name="com.arm.carp.apps.optimizer.passes.PassArgumentStorage" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PassArgumentStorageextendsAnyRef"></a>
+      <a id="PassArgumentStorage:PassArgumentStorage"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="PassArgumentStorage.html"><span class="name">PassArgumentStorage</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="com.arm.carp.apps.optimizer.passes.PassManager" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PassManagerextendsAnyRef"></a>
+      <a id="PassManager:PassManager"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="PassManager.html"><span class="name">PassManager</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4>
+      <p class="comment cmt">Maintains an ordered sequence of passes.</p>
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="com.arm.carp.apps.optimizer.passes.ConstantPropagation" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ConstantPropagation"></a>
+      <a id="ConstantPropagation:ConstantPropagation"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="ConstantPropagation$.html"><span class="name">ConstantPropagation</span></a><span class="result"> extends <a href="Pass.html" class="extype" name="com.arm.carp.apps.optimizer.passes.Pass">Pass</a></span>
+      </span>
+      </h4>
+      <p class="comment cmt">Perform constant propagation, constant folding, and arithmetic and logic
+expression simplifications.</p>
+    </li><li name="com.arm.carp.apps.optimizer.passes.DeadCodeElimination" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="DeadCodeElimination"></a>
+      <a id="DeadCodeElimination:DeadCodeElimination"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="DeadCodeElimination$.html"><span class="name">DeadCodeElimination</span></a><span class="result"> extends <a href="Pass.html" class="extype" name="com.arm.carp.apps.optimizer.passes.Pass">Pass</a></span>
+      </span>
+      </h4>
+      <p class="comment cmt">Remove unreachable (dead) and useless code from PENCIL program.</p>
+    </li><li name="com.arm.carp.apps.optimizer.passes.FlattenStructs" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="FlattenStructs"></a>
+      <a id="FlattenStructs:FlattenStructs"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="FlattenStructs$.html"><span class="name">FlattenStructs</span></a><span class="result"> extends <a href="Pass.html" class="extype" name="com.arm.carp.apps.optimizer.passes.Pass">Pass</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="com.arm.carp.apps.optimizer.passes.GCP" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="GCP"></a>
+      <a id="GCP:GCP"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="GCP$.html"><span class="name">GCP</span></a><span class="result"> extends <a href="Pass.html" class="extype" name="com.arm.carp.apps.optimizer.passes.Pass">Pass</a></span>
+      </span>
+      </h4>
+      <p class="comment cmt">Perform global constant propagation.</p>
+    </li><li name="com.arm.carp.apps.optimizer.passes.IndexExtraction" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="IndexExtraction"></a>
+      <a id="IndexExtraction:IndexExtraction"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="IndexExtraction$.html"><span class="name">IndexExtraction</span></a><span class="result"> extends <a href="Pass.html" class="extype" name="com.arm.carp.apps.optimizer.passes.Pass">Pass</a></span>
+      </span>
+      </h4>
+      <p class="comment cmt">Array index expression extraction pass.</p>
+    </li><li name="com.arm.carp.apps.optimizer.passes.Inline" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Inline"></a>
+      <a id="Inline:Inline"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Inline$.html"><span class="name">Inline</span></a><span class="result"> extends <a href="Pass.html" class="extype" name="com.arm.carp.apps.optimizer.passes.Pass">Pass</a></span>
+      </span>
+      </h4>
+      <p class="comment cmt">Function inline pass.</p>
+    </li><li name="com.arm.carp.apps.optimizer.passes.LICM" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="LICM"></a>
+      <a id="LICM:LICM"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="LICM$.html"><span class="name">LICM</span></a><span class="result"> extends <a href="Pass.html" class="extype" name="com.arm.carp.apps.optimizer.passes.Pass">Pass</a></span>
+      </span>
+      </h4>
+      <p class="comment cmt">This class implements basic loop invariant code motion.</p>
+    </li><li name="com.arm.carp.apps.optimizer.passes.Linearize" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Linearize"></a>
+      <a id="Linearize:Linearize"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Linearize$.html"><span class="name">Linearize</span></a><span class="result"> extends <a href="Pass.html" class="extype" name="com.arm.carp.apps.optimizer.passes.Pass">Pass</a></span>
+      </span>
+      </h4>
+      <p class="comment cmt">Remove unnecessary nested blocks in PENCIL code.</p>
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+
+
+    </body>
+      </html>
