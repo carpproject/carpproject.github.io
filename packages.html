@@ -21,9 +21,27 @@
 Requirements:
 <ul>
     <li>Scala compiler (scalac) at least 2.10 version in system PATH.</li>
-    <li>Antlr3 library (antlr3.jar) in system CLASSPATH.</li>
+    <li>Antlr3 library (antlr3.jar and ant-antlr3.jar) in system CLASSPATH.</li>
     <li>VOBLA compiler requires PENCIL tools package.</li>
 </ul>
+
+<h1>
+    Ebuilds
+</h1>
+CARP project maintains overlay for the PENCIL tools and VOBLA compiler.
+Layman config for the overlay can be copied below:
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #4c8317">&lt;?xml version=&quot;1.0&quot; ?&gt;</span>
+<span style="color: #1e90ff; font-weight: bold">&lt;repositories&gt;</span>
+    <span style="color: #1e90ff; font-weight: bold">&lt;repo</span> <span style="color: #1e90ff">name=</span><span style="color: #aa5500">&quot;CARP&quot;</span> <span style="color: #1e90ff">quality=</span><span style="color: #aa5500">&quot;experimental&quot;</span> <span style="color: #1e90ff">status=</span><span style="color: #aa5500">&quot;unofficial&quot;</span>
+          <span style="color: #1e90ff">type=</span><span style="color: #aa5500">&quot;git&quot;</span> <span style="color: #1e90ff">src=</span><span style="color: #aa5500">&quot;git://github.com:carpproject/carp-overlay.git&quot;</span><span style="color: #1e90ff; font-weight: bold">&gt;</span>
+    <span style="color: #1e90ff; font-weight: bold">&lt;link&gt;</span>git://github.com:carpproject/carp-overlay.git<span style="color: #1e90ff; font-weight: bold">&lt;/link&gt;</span>
+<span style="color: #1e90ff; font-weight: bold">&lt;description&gt;</span>Kayrick Gentoo Overlay<span style="color: #1e90ff; font-weight: bold">&lt;/description&gt;</span>
+<span style="color: #1e90ff; font-weight: bold">&lt;/repo&gt;</span>
+<span style="color: #1e90ff; font-weight: bold">&lt;/repositories&gt;</span>
+</pre></div>
+
+It can also be downloaded directly from the overlay github page:
+(<a href="http://raw.github.com/carpproject/carp-overlay/master/overlay.xml">xml</a>)
 
 <br>
 </body>
